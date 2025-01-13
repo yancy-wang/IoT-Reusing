@@ -1,0 +1,20 @@
+gecko_sdk_4.4.3/hardware/driver/imu/src/sl_imu_icm20648.o: \
+ /Users/wangyangyang/SimplicityStudio/SDKs/gecko_sdk/hardware/driver/imu/src/sl_imu_icm20648.c \
+ /Users/wangyangyang/SimplicityStudio/SDKs/gecko_sdk//platform/common/toolchain/inc/sl_gcc_preinclude.h \
+ /Users/wangyangyang/SimplicityStudio/SDKs/gecko_sdk//hardware/driver/icm20648/inc/sl_icm20648.h \
+ /Users/wangyangyang/SimplicityStudio/SDKs/gecko_sdk//platform/common/inc/sl_status.h \
+ /Users/wangyangyang/SimplicityStudio/SDKs/gecko_sdk//hardware/driver/imu/inc/sl_imu.h \
+ /Users/wangyangyang/SimplicityStudio/SDKs/gecko_sdk//platform/service/sleeptimer/inc/sl_sleeptimer.h \
+ /Users/wangyangyang/SimplicityStudio/SDKs/gecko_sdk//platform/common/inc/sl_common.h \
+ /Users/wangyangyang/SimplicityStudio/SDKs/gecko_sdk//platform/common/inc/sl_assert.h \
+ /Users/wangyangyang/SimplicityStudio/SDKs/gecko_sdk//platform/CMSIS/Core/Include/cmsis_compiler.h \
+ /Users/wangyangyang/SimplicityStudio/SDKs/gecko_sdk//platform/CMSIS/Core/Include/cmsis_gcc.h
+/Users/wangyangyang/SimplicityStudio/SDKs/gecko_sdk//platform/common/toolchain/inc/sl_gcc_preinclude.h:
+/Users/wangyangyang/SimplicityStudio/SDKs/gecko_sdk//hardware/driver/icm20648/inc/sl_icm20648.h:
+/Users/wangyangyang/SimplicityStudio/SDKs/gecko_sdk//platform/common/inc/sl_status.h:
+/Users/wangyangyang/SimplicityStudio/SDKs/gecko_sdk//hardware/driver/imu/inc/sl_imu.h:
+/Users/wangyangyang/SimplicityStudio/SDKs/gecko_sdk//platform/service/sleeptimer/inc/sl_sleeptimer.h:
+/Users/wangyangyang/SimplicityStudio/SDKs/gecko_sdk//platform/common/inc/sl_common.h:
+/Users/wangyangyang/SimplicityStudio/SDKs/gecko_sdk//platform/common/inc/sl_assert.h:
+/Users/wangyangyang/SimplicityStudio/SDKs/gecko_sdk//platform/CMSIS/Core/Include/cmsis_compiler.h:
+/Users/wangyangyang/SimplicityStudio/SDKs/gecko_sdk//platform/CMSIS/Core/Include/cmsis_gcc.h:

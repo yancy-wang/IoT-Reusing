@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC1DBF462CDC024800796091 /* ViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1DBF452CDC024800796091 /* ViewControllerWrapper.swift */; };
+		FC4D47AC2CDB67C800CB046C /* Thunderboard_APPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4D47AB2CDB67C800CB046C /* Thunderboard_APPApp.swift */; };
+		FC4D47AE2CDB67C800CB046C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4D47AD2CDB67C800CB046C /* Persistence.swift */; };
+		FC4D47B12CDB67C800CB046C /* Thunderboard_APP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC4D47AF2CDB67C800CB046C /* Thunderboard_APP.xcdatamodeld */; };
+		FC4D47B32CDB67C800CB046C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4D47B22CDB67C800CB046C /* ContentView.swift */; };
+		FC4D47B52CDB67CA00CB046C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4D47B42CDB67CA00CB046C /* Assets.xcassets */; };
+		FC4D47B92CDB67CA00CB046C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4D47B82CDB67CA00CB046C /* Preview Assets.xcassets */; };
+		FC4D47C32CDB67CA00CB046C /* Thunderboard_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4D47C22CDB67CA00CB046C /* Thunderboard_APPTests.swift */; };
+		FC4D47CD2CDB67CA00CB046C /* Thunderboard_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4D47CC2CDB67CA00CB046C /* Thunderboard_APPUITests.swift */; };
+		FC4D47CF2CDB67CA00CB046C /* Thunderboard_APPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4D47CE2CDB67CA00CB046C /* Thunderboard_APPUITestsLaunchTests.swift */; };
+		FC4D47DC2CDB68CA00CB046C /*  ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4D47DB2CDB68CA00CB046C /*  ViewController.swift */; };
+		FC4D47DE2CDB6A8B00CB046C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4D47DD2CDB6A8B00CB046C /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC4D47BF2CDB67CA00CB046C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC4D47A02CDB67C800CB046C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC4D47A72CDB67C800CB046C;
+			remoteInfo = Thunderboard_APP;
+		};
+		FC4D47C92CDB67CA00CB046C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC4D47A02CDB67C800CB046C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC4D47A72CDB67C800CB046C;
+			remoteInfo = Thunderboard_APP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC1DBF452CDC024800796091 /* ViewControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWrapper.swift; sourceTree = "<group>"; };
+		FC460C342CDB6F8C009CAB8F /* Thunderboard-APP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Thunderboard-APP-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FC4D47A82CDB67C800CB046C /* Thunderboard_APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thunderboard_APP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4D47AB2CDB67C800CB046C /* Thunderboard_APPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thunderboard_APPApp.swift; sourceTree = "<group>"; };
+		FC4D47AD2CDB67C800CB046C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FC4D47B02CDB67C800CB046C /* Thunderboard_APP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Thunderboard_APP.xcdatamodel; sourceTree = "<group>"; };
+		FC4D47B22CDB67C800CB046C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC4D47B42CDB67CA00CB046C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC4D47B62CDB67CA00CB046C /* Thunderboard_APP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Thunderboard_APP.entitlements; sourceTree = "<group>"; };
+		FC4D47B82CDB67CA00CB046C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC4D47BE2CDB67CA00CB046C /* Thunderboard_APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Thunderboard_APPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4D47C22CDB67CA00CB046C /* Thunderboard_APPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thunderboard_APPTests.swift; sourceTree = "<group>"; };
+		FC4D47C82CDB67CA00CB046C /* Thunderboard_APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Thunderboard_APPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4D47CC2CDB67CA00CB046C /* Thunderboard_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thunderboard_APPUITests.swift; sourceTree = "<group>"; };
+		FC4D47CE2CDB67CA00CB046C /* Thunderboard_APPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thunderboard_APPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FC4D47DB2CDB68CA00CB046C /*  ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " ViewController.swift"; sourceTree = "<group>"; };
+		FC4D47DD2CDB6A8B00CB046C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC4D47A52CDB67C800CB046C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4D47BB2CDB67CA00CB046C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4D47C52CDB67CA00CB046C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC4D479F2CDB67C800CB046C = {
+			isa = PBXGroup;
+			children = (
+				FC4D47DD2CDB6A8B00CB046C /* Main.storyboard */,
+				FC4D47AA2CDB67C800CB046C /* Thunderboard_APP */,
+				FC4D47C12CDB67CA00CB046C /* Thunderboard_APPTests */,
+				FC4D47CB2CDB67CA00CB046C /* Thunderboard_APPUITests */,
+				FC4D47A92CDB67C800CB046C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC4D47A92CDB67C800CB046C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC4D47A82CDB67C800CB046C /* Thunderboard_APP.app */,
+				FC4D47BE2CDB67CA00CB046C /* Thunderboard_APPTests.xctest */,
+				FC4D47C82CDB67CA00CB046C /* Thunderboard_APPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC4D47AA2CDB67C800CB046C /* Thunderboard_APP */ = {
+			isa = PBXGroup;
+			children = (
+				FC460C342CDB6F8C009CAB8F /* Thunderboard-APP-Info.plist */,
+				FC4D47AB2CDB67C800CB046C /* Thunderboard_APPApp.swift */,
+				FC4D47AD2CDB67C800CB046C /* Persistence.swift */,
+				FC4D47B22CDB67C800CB046C /* ContentView.swift */,
+				FC4D47B42CDB67CA00CB046C /* Assets.xcassets */,
+				FC4D47B62CDB67CA00CB046C /* Thunderboard_APP.entitlements */,
+				FC4D47AF2CDB67C800CB046C /* Thunderboard_APP.xcdatamodeld */,
+				FC4D47B72CDB67CA00CB046C /* Preview Content */,
+				FC4D47DB2CDB68CA00CB046C /*  ViewController.swift */,
+				FC1DBF452CDC024800796091 /* ViewControllerWrapper.swift */,
+			);
+			path = Thunderboard_APP;
+			sourceTree = "<group>";
+		};
+		FC4D47B72CDB67CA00CB046C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC4D47B82CDB67CA00CB046C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC4D47C12CDB67CA00CB046C /* Thunderboard_APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC4D47C22CDB67CA00CB046C /* Thunderboard_APPTests.swift */,
+			);
+			path = Thunderboard_APPTests;
+			sourceTree = "<group>";
+		};
+		FC4D47CB2CDB67CA00CB046C /* Thunderboard_APPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC4D47CC2CDB67CA00CB046C /* Thunderboard_APPUITests.swift */,
+				FC4D47CE2CDB67CA00CB046C /* Thunderboard_APPUITestsLaunchTests.swift */,
+			);
+			path = Thunderboard_APPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC4D47A72CDB67C800CB046C /* Thunderboard_APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4D47D22CDB67CA00CB046C /* Build configuration list for PBXNativeTarget "Thunderboard_APP" */;
+			buildPhases = (
+				FC4D47A42CDB67C800CB046C /* Sources */,
+				FC4D47A52CDB67C800CB046C /* Frameworks */,
+				FC4D47A62CDB67C800CB046C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thunderboard_APP;
+			productName = Thunderboard_APP;
+			productReference = FC4D47A82CDB67C800CB046C /* Thunderboard_APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC4D47BD2CDB67CA00CB046C /* Thunderboard_APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4D47D52CDB67CA00CB046C /* Build configuration list for PBXNativeTarget "Thunderboard_APPTests" */;
+			buildPhases = (
+				FC4D47BA2CDB67CA00CB046C /* Sources */,
+				FC4D47BB2CDB67CA00CB046C /* Frameworks */,
+				FC4D47BC2CDB67CA00CB046C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC4D47C02CDB67CA00CB046C /* PBXTargetDependency */,
+			);
+			name = Thunderboard_APPTests;
+			productName = Thunderboard_APPTests;
+			productReference = FC4D47BE2CDB67CA00CB046C /* Thunderboard_APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC4D47C72CDB67CA00CB046C /* Thunderboard_APPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4D47D82CDB67CA00CB046C /* Build configuration list for PBXNativeTarget "Thunderboard_APPUITests" */;
+			buildPhases = (
+				FC4D47C42CDB67CA00CB046C /* Sources */,
+				FC4D47C52CDB67CA00CB046C /* Frameworks */,
+				FC4D47C62CDB67CA00CB046C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC4D47CA2CDB67CA00CB046C /* PBXTargetDependency */,
+			);
+			name = Thunderboard_APPUITests;
+			productName = Thunderboard_APPUITests;
+			productReference = FC4D47C82CDB67CA00CB046C /* Thunderboard_APPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC4D47A02CDB67C800CB046C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					FC4D47A72CDB67C800CB046C = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					FC4D47BD2CDB67CA00CB046C = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FC4D47A72CDB67C800CB046C;
+					};
+					FC4D47C72CDB67CA00CB046C = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FC4D47A72CDB67C800CB046C;
+					};
+				};
+			};
+			buildConfigurationList = FC4D47A32CDB67C800CB046C /* Build configuration list for PBXProject "Thunderboard_APP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC4D479F2CDB67C800CB046C;
+			productRefGroup = FC4D47A92CDB67C800CB046C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC4D47A72CDB67C800CB046C /* Thunderboard_APP */,
+				FC4D47BD2CDB67CA00CB046C /* Thunderboard_APPTests */,
+				FC4D47C72CDB67CA00CB046C /* Thunderboard_APPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC4D47A62CDB67C800CB046C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4D47DE2CDB6A8B00CB046C /* Main.storyboard in Resources */,
+				FC4D47B92CDB67CA00CB046C /* Preview Assets.xcassets in Resources */,
+				FC4D47B52CDB67CA00CB046C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4D47BC2CDB67CA00CB046C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4D47C62CDB67CA00CB046C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC4D47A42CDB67C800CB046C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4D47B12CDB67C800CB046C /* Thunderboard_APP.xcdatamodeld in Sources */,
+				FC4D47AC2CDB67C800CB046C /* Thunderboard_APPApp.swift in Sources */,
+				FC1DBF462CDC024800796091 /* ViewControllerWrapper.swift in Sources */,
+				FC4D47B32CDB67C800CB046C /* ContentView.swift in Sources */,
+				FC4D47DC2CDB68CA00CB046C /*  ViewController.swift in Sources */,
+				FC4D47AE2CDB67C800CB046C /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4D47BA2CDB67CA00CB046C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4D47C32CDB67CA00CB046C /* Thunderboard_APPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4D47C42CDB67CA00CB046C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4D47CF2CDB67CA00CB046C /* Thunderboard_APPUITestsLaunchTests.swift in Sources */,
+				FC4D47CD2CDB67CA00CB046C /* Thunderboard_APPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC4D47C02CDB67CA00CB046C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC4D47A72CDB67C800CB046C /* Thunderboard_APP */;
+			targetProxy = FC4D47BF2CDB67CA00CB046C /* PBXContainerItemProxy */;
+		};
+		FC4D47CA2CDB67CA00CB046C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC4D47A72CDB67C800CB046C /* Thunderboard_APP */;
+			targetProxy = FC4D47C92CDB67CA00CB046C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FC4D47D02CDB67CA00CB046C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC4D47D12CDB67CA00CB046C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FC4D47D32CDB67CA00CB046C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Thunderboard_APP/Thunderboard_APP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Thunderboard_APP/Preview Content\"";
+				DEVELOPMENT_TEAM = GJWW52XRS7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Thunderboard-APP-Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yy.Thunderboard-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC4D47D42CDB67CA00CB046C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Thunderboard_APP/Thunderboard_APP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Thunderboard_APP/Preview Content\"";
+				DEVELOPMENT_TEAM = GJWW52XRS7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Thunderboard-APP-Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yy.Thunderboard-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC4D47D62CDB67CA00CB046C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJWW52XRS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yy.Thunderboard-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thunderboard_APP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Thunderboard_APP";
+			};
+			name = Debug;
+		};
+		FC4D47D72CDB67CA00CB046C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJWW52XRS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yy.Thunderboard-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thunderboard_APP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Thunderboard_APP";
+			};
+			name = Release;
+		};
+		FC4D47D92CDB67CA00CB046C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJWW52XRS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yy.Thunderboard-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Thunderboard_APP;
+			};
+			name = Debug;
+		};
+		FC4D47DA2CDB67CA00CB046C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJWW52XRS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yy.Thunderboard-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Thunderboard_APP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC4D47A32CDB67C800CB046C /* Build configuration list for PBXProject "Thunderboard_APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4D47D02CDB67CA00CB046C /* Debug */,
+				FC4D47D12CDB67CA00CB046C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4D47D22CDB67CA00CB046C /* Build configuration list for PBXNativeTarget "Thunderboard_APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4D47D32CDB67CA00CB046C /* Debug */,
+				FC4D47D42CDB67CA00CB046C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4D47D52CDB67CA00CB046C /* Build configuration list for PBXNativeTarget "Thunderboard_APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4D47D62CDB67CA00CB046C /* Debug */,
+				FC4D47D72CDB67CA00CB046C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4D47D82CDB67CA00CB046C /* Build configuration list for PBXNativeTarget "Thunderboard_APPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4D47D92CDB67CA00CB046C /* Debug */,
+				FC4D47DA2CDB67CA00CB046C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC4D47AF2CDB67C800CB046C /* Thunderboard_APP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC4D47B02CDB67C800CB046C /* Thunderboard_APP.xcdatamodel */,
+			);
+			currentVersion = FC4D47B02CDB67C800CB046C /* Thunderboard_APP.xcdatamodel */;
+			path = Thunderboard_APP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC4D47A02CDB67C800CB046C /* Project object */;
+}

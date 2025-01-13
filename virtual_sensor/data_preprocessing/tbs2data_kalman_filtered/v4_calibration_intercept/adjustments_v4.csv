@@ -1,0 +1,19 @@
+Sensor,MAC,Reference MAC,Adjustment
+Ambient light(x),90:FD:9F:7B:83:D6,90:FD:9F:7B:83:F3,-48.032
+Ambient light(x),90:FD:9F:7B:82:50,90:FD:9F:7B:83:F3,44.434
+Ambient light(x),90:FD:9F:7B:84:53,90:FD:9F:7B:83:F3,-30.042
+Ambient light(x),90:FD:9F:7B:53:3E,90:FD:9F:7B:83:F3,-32.195
+Pressure(mbar),90:FD:9F:7B:82:50,90:FD:9F:7B:83:D6,-1.274
+Pressure(mbar),90:FD:9F:7B:84:53,90:FD:9F:7B:83:D6,0.080
+humidity(%),90:FD:9F:7B:83:D6,90:FD:9F:7B:84:53,-0.077
+humidity(%),90:FD:9F:7B:83:F3,90:FD:9F:7B:84:53,-0.539
+humidity(%),90:FD:9F:7B:82:50,90:FD:9F:7B:84:53,-0.883
+humidity(%),90:FD:9F:7B:53:3E,90:FD:9F:7B:84:53,5.433
+sound level(dB),90:FD:9F:7B:83:F3,90:FD:9F:7B:83:D6,0.464
+sound level(dB),90:FD:9F:7B:82:50,90:FD:9F:7B:83:D6,-0.062
+sound level(dB),90:FD:9F:7B:84:53,90:FD:9F:7B:83:D6,-0.057
+sound level(dB),90:FD:9F:7B:53:3E,90:FD:9F:7B:83:D6,0.528
+CO2(ppm),90:FD:9F:7B:82:50,90:FD:9F:7B:83:D6,-423.271
+CO2(ppm),90:FD:9F:7B:84:53,90:FD:9F:7B:83:D6,46.789
+VOCs(ppb),90:FD:9F:7B:82:50,90:FD:9F:7B:83:D6,-6.444
+VOCs(ppb),90:FD:9F:7B:84:53,90:FD:9F:7B:83:D6,0.706
